@@ -1,20 +1,43 @@
-# Iphone_14_Pro
-## Landing page
+# 📱 iPhone 14 Pro — продуктовый лендинг
 
-[>>> Просмотр страницы Iphone_14_Pro <<<](https://pavelreb.github.io/Iphone_14_Pro/)
+Адаптивный лендинг-презентация iPhone 14 Pro, свёрстанный с нуля по макету Figma. Продуктовая подача в стиле Apple: крупный первый экран, преимущества, выбор цвета и форма заказа.
 
-![This is an image](https://raw.githubusercontent.com/Pavelreb/Iphone_14_Pro/master/img/first-screen.jpg)
+[>>> Открыть сайт <<<](https://pavelreb.github.io/Iphone_14_Pro/)
 
-### Описание проекта:
-Обучающая верстка сайта с нуля с использованием графического редактора FIGMA, для написания кода использовался текстовый редактор Visual Studio Code макет свёрстан адаптивным и кросбраузерным.
+![Первый экран](img/first-screen.jpg)
 
-### В вёрстке использовались технологии:
-- HyperText Markup Language HTML5
-- Cascading Style Sheets CSS3
-- CSS Flexible Box Layout (Flexbox)
-- JavaScript EC6
+## ✨ Что внутри
 
-### Материалы проекта:
-Ссылка на макет Figma: [Перейти](https://www.figma.com/file/MT00zFN9AF7qUDVwlpIQXo/Iphone-14-pro)
+- 🖥️ **Первый экран** с крупным рендером iPhone и кнопкой «Выбрать»
+- 🆕 **Что нового** — A16 Bionic, камера 48 Мп, ProMotion 120 Гц
+- 🎨 **Выбери свой цвет** — Silver, Deep Purple, Gold, Space Black
+- 🛒 **Форма заказа** — имя и телефон, CTA-блок
+- 🍔 **Бургер-меню** и плавный скролл к якорям
 
-Ссылка на видео урок на YouTube: [Смотреть](https://youtu.be/2dVPFVX3ZZ0)
+## 🛠️ Технологии
+
+| Технология | Применение |
+|------------|-----------|
+| **HTML5** | Семантическая разметка |
+| **CSS3 (Flexbox / Grid)** | Раскладка секций |
+| **Media Queries** | Адаптив под десктоп, планшет и мобильные |
+| **JavaScript (ES6)** | Бургер-меню и плавный скролл с easing-анимацией |
+| **Figma** | Вёрстка по макету |
+
+## 🚀 Запуск
+
+Сборка не требуется — достаточно открыть `index.html` в браузере или развернуть на любом статическом хостинге (GitHub Pages, Netlify, Vercel).
+
+## 📁 Структура
+
+```
+Iphone_14_Pro/
+├── index.html      # Разметка страницы
+├── css/
+│   ├── main.css    # Основные стили
+│   ├── media.css   # Адаптив
+│   └── reset.css   # Сброс стилей
+├── js/
+│   └── main.js     # Меню и скролл
+└── img/            # Изображения и SVG
+```
